@@ -31,8 +31,9 @@
                     <img class="toolbar_img" src="Resources\italic-xxl.png" alt="italic">
                 </button>
 
-                <button class="btn" type="button">
-                    <img class="toolbar_img" src="Resources/color.png" alt="Color">
+                <button class="btn" type="button" onclick="textEdit('foreColor')">
+                    <img class="toolbar_img" src="Resources\color.png" alt="Color">
+                    <input type="color" oninput="color(this.value); this.value='#000000';">
                 </button>
 
                 <button class="btn" type="button">
